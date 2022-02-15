@@ -3,7 +3,6 @@ import invariant from 'tiny-invariant'
 import { sendAndConfirmTransaction, parseTokenAccountData } from './util';
 import { TransactionSignature } from '@solana/web3.js';
 import { MintLayout, Token, TOKEN_PROGRAM_ID } from '@solana/spl-token'
-import axios from 'axios';
 import { addUserPositionInstruction, claimInstruction, depositAllTokenTypesInstruction, initializeInstruction, managerClaimInstruction, swapInstruction, withdrawAllTokenTypesInstruction, simulateSwapInstruction} from './instructions';
 import { TICKS_ACCOUNT_SIZE, POSITIONS_ACCOUNT_SIZE, TOKEN_SWAP_ACCOUNT_SIZE, MAX_ACCOUNT_POSITION_LENGTH } from './state';
 import { Connection, PublicKey, Signer, Keypair, GetProgramAccountsConfig, Transaction, SystemProgram } from '@solana/web3.js';
