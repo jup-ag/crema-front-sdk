@@ -1,5 +1,5 @@
 {
-  "name": "@jup-ag/swap-sdk",
+  "name": "@jup-ag/crema-sdk",
   "version": "2.0.5",
   "description": "the front sdk for crema swap",
   "license": "MIT",
@@ -58,7 +58,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "typings": "dist/index.d.ts",
+  "typings": "dist/esm/index.d.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "packageManager": "yarn@3.2.0"
